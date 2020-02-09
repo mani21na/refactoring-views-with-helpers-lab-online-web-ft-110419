@@ -4,4 +4,8 @@ class Artist < ActiveRecord::Base
   def artist_name
     self.name
   end
+
+  def artist_name=(name)
+    self.name = name
+  end
 end
